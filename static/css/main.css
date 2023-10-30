@@ -30,3 +30,17 @@
     font: 400 3em "Press Start 2P", sans-serif;
     user-select: none;
 }
+
+.landing-title > h1 {
+    transform-origin: top;
+    animation: loadLandingTitle 500ms ease;
+}
+
+/* Animations */
+@keyframes loadLandingTitle {
+    from {
+        transform: scaleY(0);
+    } to {
+        transform: scaleY(1);
+    }
+}
