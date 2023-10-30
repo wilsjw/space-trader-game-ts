@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Press+Start+2P&display=swap');
+
 /* --- Page Setup --- */
 * {
     box-sizing: border-box;
@@ -25,4 +27,6 @@
     justify-content: center;
     align-items: center;
     color: var(--landing-text);
+    font: 400 3em "Press Start 2P", sans-serif;
+    user-select: none;
 }
